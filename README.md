@@ -11,4 +11,5 @@ admin can create user/client modify password and delete it.
 
 -> For proper working of this project first You have to create atlas account, copy connection string and paste it in src/Mongo.java
 -> Add mongo driver jar file in project
+-> Install mysql
 -> Now you are good to go
