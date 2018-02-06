@@ -13,7 +13,7 @@ import com.mongodb.client.MongoIterable;
 
 public class Mongo {
 	
-	static  MongoClientURI uri = new MongoClientURI("mongodb://vaibhav:vaibhav@cluster0-shard-00-00-ubsdl.mongodb.net:27017,cluster0-shard-00-01-ubsdl.mongodb.net:27017,cluster0-shard-00-02-ubsdl.mongodb.net:27017/?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin");
+	static  MongoClientURI uri = new MongoClientURI("/* Paste your connection string here */");
 	static  MongoClient mongoClient = new MongoClient(uri);
 	  
 	public static MongoCollection<Document> showdata(String Database, String Collection, JTextField txtDatabase, JTextField txtCollections) {
